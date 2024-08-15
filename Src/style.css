@@ -1,0 +1,116 @@
+/* Página */
+
+.hero{
+    display: flex;
+    background: no-repeat url(img/bg-repeat.jpg);
+    background-size: 100vw 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100vw;
+    max-height: 100vh;
+    max-width: 100vw;
+
+}
+
+/* Formulario */
+
+.formulario{
+    background-color: white;
+    width: 400px;
+    height: 578px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    margin-top: 16px;
+    width: 300px;
+    height: 40px;
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+
+label{
+    display: flex;
+    font-size: 10px;
+    font-weight: 400;
+    color: red;
+    opacity: 0;
+}
+
+
+
+.formulario .mensagem{
+    margin-bottom: 0px;
+    height: 200px;
+    
+}
+.enviar{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    justify-content: space-between;
+}
+
+.formulario .enviar p{
+    margin-bottom: 30px;
+    color: black;
+    font-size: 16px;
+    opacity: 1;
+}
+
+.formulario .enviar .botao{
+    width: 300px;
+    height: 50px;
+    background-color: #3CCC87;
+    border: #3CCC87;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+
+/* Textp */
+
+.texto{
+    max-width: 500px;
+    max-height: 311px;
+    color: white;
+    
+}
+
+.texto h1{
+    margin-bottom: 16px;
+    
+}
+
+/* Mostrar elementos */
+
+.mostrar{
+    opacity: 1;
+}
+
+.bordaVermelha{
+    border: red solid 1px;
+}
+
+.bordaVerde{
+    border: solid 1px #3CCC87;
+}
+
